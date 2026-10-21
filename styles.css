@@ -2,4 +2,16 @@
 body {
   background-color: #d9b382;
   color: #3d2314;
+  font-family: "Nunito", Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #5c3a26;
+  font-family: "Fredoka", "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Nunito", Verdana, sans-serif;
+  line-height: 1.6;
 }
