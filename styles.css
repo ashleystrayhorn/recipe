@@ -1,0 +1,57 @@
+
+body {
+  background-color: #d9b382;
+  color: #3d2314;
+  font-family: "Nunito", Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #5c3a26;
+  font-family: "Fredoka", "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 0 0 20px;
+}
+
+p {
+  font-family: "Nunito", Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#columns {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+#left-col {
+  width: 45%;
+}
+
+#right-col {
+  width: 55%;
+}
+
+#inner-div {
+  display: inline-block;
+  text-align: left;
+}
+
+#inner-div p {
+  width: 0;
+  min-width: 100%;
+}
+
+#inner-div img {
+  display: block;
+  width: 400px;
+}
