@@ -13,6 +13,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 3.5rem;
+  margin: 0 0 20px;
 }
 
 p {
@@ -20,13 +21,37 @@ p {
   line-height: 1.6;
 }
 
-#inner-div {
-  display: inline-block;
-  width: 100%;
+h1 {
+  font-size: 3.5rem;
   text-align: center;
+  margin: 20px 0;
 }
 
-.description {
-  width: 50%
-} 
+#columns {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
 
+#left-col {
+  width: 45%;
+}
+
+#right-col {
+  width: 55%;
+}
+
+#inner-div {
+  display: inline-block;
+  text-align: left;
+}
+
+#inner-div p {
+  width: 0;
+  min-width: 100%;
+}
+
+#inner-div img {
+  display: block;
+  width: 400px;
+}
